@@ -1,3 +1,4 @@
+print('Doggo was in this code :)')
 local http = game:service('HttpService')
 local json = {encode = function(val)return http:JSONEncode(val)end,decode = function(val)return http:JSONDecode(val)end}
 xpcall(function()
